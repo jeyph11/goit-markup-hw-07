@@ -548,7 +548,8 @@ h3 {
 
 .customer-logo-list {
     display: flex;
-    gap: 24px;
+    column-gap: 16px;
+    row-gap: 72px;
     flex-wrap: wrap;
     justify-content: center;
 }

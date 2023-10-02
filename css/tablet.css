@@ -29,7 +29,11 @@
     .customer-logo-item {
         width: 168px;
     }
+    .icon-client {
+        width: 168px;
+    }
     .customer-logo-list {
+        row-gap: 72px;
         column-gap: 72px;
     }
     .footer {

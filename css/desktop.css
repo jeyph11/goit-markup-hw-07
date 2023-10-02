@@ -29,7 +29,10 @@
 .customer-logo-item {
     width: 168px;
 }
-
+.customer-logo-list {
+    
+    gap: 24px;
+}
 .team-list {
     gap: 24px;
   }
