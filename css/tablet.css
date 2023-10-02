@@ -1,0 +1,85 @@
+@media screen and (min-width: 768px) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+                rgba(46, 47, 66, 0.70)),
+            url(../image/hero/hero-bg-tablet.jpg);
+        background-size: cover;
+    }
+
+    .feature-item {
+        width: 356px;
+    }
+
+    .container {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    .feature-item {
+    width: 356px;
+    }
+    .feature-name {
+    text-align: left;
+    }
+
+    .team-list {
+        gap: 24px;
+        row-gap: 64px;
+    }
+    .customer-logo-item {
+        width: 168px;
+    }
+    .customer-logo-list {
+        column-gap: 72px;
+    }
+    .footer {
+    height: 456px;
+   
+    }
+    .subscribe-item-list {
+    flex-direction: row;
+    }
+
+    .footer-container {
+    flex-direction: row;
+    justify-content: left;
+    column-gap: 24px;
+    padding: 97px 108px;
+  
+    }
+
+    .nav-list,
+    .contact-info {
+    display: flex;
+    }
+    .button-container {
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+    .hero-text {
+        width: 496px;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+        }
+
+        .header-container {
+        margin-left: 16px;
+        padding-right: 16px;
+        width: 100%;
+        }
+        .mobile-nav-button {
+            visibility: hidden;
+            pointer-events: none;
+            position: absolute;
+        }
+
+    .mobile-nav {
+    visibility: hidden;
+     opacity: 0;
+    pointer-events: none;
+    }
+}

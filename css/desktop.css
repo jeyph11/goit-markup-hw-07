@@ -1,0 +1,81 @@
+@media screen and (min-width: 1158px) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+                rgba(46, 47, 66, 0.70)),
+            url(../image/hero/hero-bg-desktop.jpg);
+        background-size: cover;
+    }
+
+    .feature-item {
+        width: 356px;
+    }
+
+    .container {
+        width: 1158px;
+        margin: 0 auto;
+    }
+
+    .feature-svg-container {
+        display: flex;
+    }
+
+    .feature-item {
+    width: 264px;
+}
+
+.service {
+    display: flex;
+}
+.customer-logo-item {
+    width: 168px;
+}
+
+.team-list {
+    gap: 24px;
+  }
+.customer-logo-list {
+    gap: 24px;
+}
+.footer {
+    height: 312px;
+}
+.subscribe-item-list {
+    flex-direction: row;
+}
+
+.nav-list,
+.contact-info {
+    display: flex;
+}
+.footer-item3-container {
+    width: 453px;
+}
+.footer-container { 
+    display: flex;
+    flex-direction: row;
+   gap: 80px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.feature-name {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.feature-description {
+    font-weight: 400;
+}
+.feature-item {
+padding-bottom: 0px;
+}
+.hero-text {
+    width: 496px;
+}
+  .mobile-nav {
+      visibility: hidden;
+      opacity: 0;
+      pointer-events: none;
+  }
+}

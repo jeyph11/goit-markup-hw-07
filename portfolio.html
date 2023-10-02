@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header-container container">
+        <nav class="navigation">
+          <a href="index.html" class="logo-header logo no-decoration"
+            ><span class="web-text">WEB</span
+            ><span class="studio-text">STUDIO</span></a
+          >
+          <ul class="nav-list list">
+            <li class="nav-list-item">
+              <a
+                href="index.html"
+                class="nav-link no-decoration medium-text current-page blue-text"
+                >Studio</a
+              >
+            </li>
+            <li class="nav-list-item">
+              <a
+                href="portfolio.html"
+                class="nav-link no-decoration medium-text"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-list-item">
+              <a href="#" class="nav-link no-decoration medium-text"
+                >Contacts</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <address class="contact-info">
+          <ul class="contact-info list">
+            <li class="contact-details">
+              <a
+                href="mailto:info@devstudio.com"
+                class="contact-link no-decoration"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="contact-details">
+              <a href="tel:110001111111" class="contact-link no-decoration"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        <button class="mobile-nav-button js-open-menu">
+          <svg class="mobile-nav-button-svg">
+            <use href="./image/sprite.svg#icon-menu-hamburger"></use>
+          </svg>
+        </button>
+        <nav class="mobile-nav js-menu-container">
+          <ul class="mobile-nav-menu list">
+            <li class="mobile-nav-menu-item">
+              <a href="/">Studio</a>
+            </li>
+            <li class="mobile-nav-menu-item">
+              <a href="/portfolio.html">Portfolio</a>
+            </li>
+            <li class="mobile-nav-menu-item">
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+
+          <ul class="mobile-nav-info list">
+            <li class="mobile-nav-info-item">
+              <a class="mobile-nav-tel" href="tel:110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="mobile-nav-info-item">
+              <a class="mobile-nav-mail" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+
+          <ul class="mobile-nav-logo list">
+            <li class="social-logo-item">
+              <a class="link-svg" href="#">
+                <svg class="social-logo-circle">
+                  <use href="./image/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-logo-item">
+              <a class="link-svg" href="#">
+                <svg class="social-logo-circle">
+                  <use href="./image/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-logo-item">
+              <a class="link-svg" href="#">
+                <svg class="social-logo-circle">
+                  <use href="./image/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-logo-item">
+              <a class="link-svg" href="#">
+                <svg class="social-logo-circle">
+                  <use href="./image/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+
+          <button class="mobile-nav-close js-close-menu">
+            <svg class="icon-close">
+              <use href="./image/sprite.svg#icon-close"></use>
+            </svg>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <section class="portfolio no-padding-top">
+      <div class="portfolio-container container">
+        <div class="button-container">
+          <button type="button" class="filter-button button-text">All</button>
+          <button type="button" class="filter-button button-text">
+            Web Site
+          </button>
+          <button type="button" class="filter-button button-text">App</button>
+          <button type="button" class="filter-button button-text">
+            Design
+          </button>
+          <button type="button" class="filter-button button-text">
+            Marketing
+          </button>
+        </div>
+
+        <ul class="project-card-list list">
+          <li class="project-card-item">
+            <figure class="project-card-figure">
+              <img src="image/portfolio/img1.jpg" alt="image1" />
+              <figcaption>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </figcaption>
+            </figure>
+            <div class="project-card-content">
+              <h3>Banking App Interface Concept</h3>
+              <p>App</p>
+            </div>
+          </li>
+          <li class="project-card-item">
+            <figure class="project-card-figure">
+              <img src="image/portfolio/img2.jpg" alt="image1" />
+              <figcaption>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </figcaption>
+            </figure>
+            <div class="project-card-content">
+              <h3>Cashless Payment</h3>
+              <p>Marketing</p>
+            </div>
+          </li>
+          <li class="project-card-item">
+            <figure class="project-card-figure">
+              <img src="image/portfolio/img3.jpg" alt="image1" />
+              <figcaption>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </figcaption>
+            </figure>
+            <div class="project-card-content">
+              <h3>Meditation App</h3>
+              <p>App</p>
+            </div>
+          </li>
+          <li class="project-card-item">
+            <figure class="project-card-figure">
+              <img src="image/portfolio/img4.jpg" alt="image1" />
+              <figcaption>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </figcaption>
+            </figure>
+            <div class="project-card-content">
+              <h3>Texi Service</h3>
+              <p>Marketing</p>
+            </div>
+          </li>
+          <li class="project-card-item">
+            <figure class="project-card-figure">
+              <img src="image/portfolio/img5.jpg" alt="image1" />
+              <figcaption>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </figcaption>
+            </figure>
+            <div class="project-card-content">
+              <h3>Screen Illustrations</h3>
+              <p>Design</p>
+            </div>
+          </li>
+          <li class="project-card-item">
+            <figure class="project-card-figure">
+              <img src="image/portfolio/img6.jpg" alt="image1" />
+              <figcaption>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </figcaption>
+            </figure>
+            <div class="project-card-content">
+              <h3>Online Courses</h3>
+              <p>Marketing</p>
+            </div>
+          </li>
+          <li class="project-card-item">
+            <figure class="project-card-figure">
+              <img src="image/portfolio/img7.jpg" alt="image1" />
+              <figcaption>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </figcaption>
+            </figure>
+            <div class="project-card-content">
+              <h3>Instagram Stories Concept</h3>
+              <p>Design</p>
+            </div>
+          </li>
+          <li class="project-card-item">
+            <figure class="project-card-figure">
+              <img src="image/portfolio/img8.jpg" alt="image1" />
+              <figcaption>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </figcaption>
+            </figure>
+            <div class="project-card-content">
+              <h3>Organic Food</h3>
+              <p>Web Site</p>
+            </div>
+          </li>
+          <li class="project-card-item">
+            <figure class="project-card-figure">
+              <img src="image/portfolio/img9.jpg" alt="image1" />
+              <figcaption>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </figcaption>
+            </figure>
+            <div class="project-card-content">
+              <h3>Fresh Coffee</h3>
+              <p>Web Site</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-container container">
+        <div class="footer-item1-container">
+          <a href="index.html" class="logo-footer logo no-decoration"
+            ><span class="web-text">WEB</span
+            ><span class="studio-text">STUDIO</span></a
+          >
+          <p>
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+
+        <div class="footer-item2-container">
+          <h3 class="footer-item2-header medium-text">Social Media</h3>
+          <ul class="social-logo-bg list">
+            <li class="social-logo-item">
+              <a class="link-svg" href="#">
+                <svg class="social-logo-circle">
+                  <use href="./image/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-logo-item">
+              <a class="link-svg" href="#">
+                <svg class="social-logo-circle">
+                  <use href="./image/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-logo-item">
+              <a class="link-svg" href="#">
+                <svg class="social-logo-circle">
+                  <use href="./image/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-logo-item">
+              <a class="link-svg" href="#">
+                <svg class="social-logo-circle">
+                  <use href="./image/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-item3-container">
+          <h3 class="footer-item3-header medium-text">Subscribe</h3>
+          <ul class="subscribe-item-list list">
+            <li class="subscribe-item">
+              <input
+                class="footer-item3-email"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+            </li>
+            <li class="subscribe-item">
+              <button type="submit" class="footer-item3-button button-text">
+                Subscribe
+                <svg class="subscribe-icon">
+                  <use href="./image/sprite.svg#icon-subscribe"></use>
+                </svg>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
+  </body>
+</html>
